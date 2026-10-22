@@ -1,0 +1,36 @@
+body {
+background: grey;
+font-family: sans-serif;
+padding-inline: 100px;
+padding-block: 30px;
+}
+
+.card {
+background-color: white;
+padding: 20px;
+margin-block: 30px;
+border-radius: 10px;
+}
+
+button {
+border-radius: 30px;
+background-color: aqua;
+border: none;
+color: white;
+width: 120px;
+height: 40px;
+}
+button:hover {
+background-color: orange;
+}
+
+.b1 {
+background-color: rgb(11, 99, 99);
+}
+.b2 {
+background-color: rgb(87, 99, 11);
+}
+
+.b3 {
+background-color: rgb(48, 11, 99);
+}

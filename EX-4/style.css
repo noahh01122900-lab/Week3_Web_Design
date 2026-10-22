@@ -1,0 +1,131 @@
+body{
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+
+}
+strong{
+    display: block;
+    margin-bottom: 20px;
+   font-size: 25px;
+}
+img{
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 15px;
+
+}
+h1{
+    border: 2px solid black;
+    padding: 5px;
+    margin: auto;
+    width: 400px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin: 5px;
+}
+.Profile{
+border: 2px solid black;
+padding: 10px;
+margin: 20px;
+width: 500px;
+margin:auto;
+background-color: white;
+border-radius: 15px;
+box-shadow: 0 4px 10px gray;
+display: flex;
+flex-direction: column;
+}
+
+.stats {
+    padding-inline: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 6px;
+}
+
+.stat span {
+    color: #888;
+    font-size: 9px;
+}
+
+.stat strong {
+    color: #333;
+    font-size: 12px;
+    font-weight: 400;
+}
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 11px;
+    margin-bottom: 25px;
+}
+
+.social {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twitter {
+    background: #38bdf8;
+}
+
+.facebook {
+    background: #3b5998;
+}
+
+.google {
+    background: #ff725e;
+    font-size: 8px;
+}
+
+.behance {
+    background: #1769ff;
+    font-size: 8px;
+}
+.view-profile {
+    width: 150px;
+    padding: 10px;
+    margin: 15px auto 0;
+    display: block;
+}
+.Profile {
+    position: relative;
+}
+
+.more-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 5px;
+}
